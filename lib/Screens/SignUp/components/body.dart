@@ -29,7 +29,7 @@ class Body extends StatelessWidget {
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: size.height * 0.03,
+              height: size.height * 0.01,
             ),
             SvgPicture.asset(
               'assets/icons/signup.svg',
@@ -47,7 +47,7 @@ class Body extends StatelessWidget {
               press: () {},
             ),
             SizedBox(
-              height: size.height * 0.03,
+              height: size.height * 0.02,
             ),
             AlreadyHeaveAnAccountCheck(
               login: false,

@@ -27,8 +27,8 @@ class SocialIcons extends StatelessWidget {
         ),
         child: SvgPicture.asset(
           iconSrc,
-          height: 20,
-          width: 20,
+          height: 18,
+          width: 18,
         ),
       ),
     );
